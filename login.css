@@ -1,0 +1,102 @@
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .login-container {
+    background-color: transparent;
+    border: 2px solid maroon;
+    border-radius: 8px;
+    padding: 25px;
+    width: 200px;
+    backdrop-filter: blur(7px) brightness(99%);
+  }
+  
+  .logo {
+    display: block;
+    margin: 0 auto 10px;
+    max-width: 100px;
+    height: auto;
+  }
+  
+  h2 {
+    color: maroon;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    color: brown;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid maroon ;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+  }
+  
+  button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: maroon;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: brown;
+  }
+  
+  .error {
+    background-color: #ff0000;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .logout-btn {
+    background-color: #ff0000;
+    color: #ffffff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .logout-btn:hover {
+    background-color: #cc0000;
+  }
+  
+  @media (max-width: 400px) {
+    .login-container {
+      width: 90%;
+    }
+  }
+  
